@@ -1,0 +1,31 @@
+/*
+Theme Name: Bootstrap 4 Blog Template
+Author: Tim Robards
+Description: Bootstrap Blog template converted to WordPress
+Version: 0.0.1
+Tags: bootstrap
+*/
+
+body {
+  padding-top: 54px;
+  background-color: orange;
+}
+
+nav li a{
+  color: #fff;
+  position: relative;
+  display: inline-block;
+  padding: 10px !important; 
+}
+
+nav li a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
